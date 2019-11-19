@@ -10,7 +10,7 @@ BorderLabelTextField is a subclass of UITextField that adds a label above the in
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-![Screenshot](/Example/Sreenshot1.jpg?raw=true "Screenshot")
+![Screenshot](https://i.imgur.com/lqm3hWg.jpg)
 
 ## Installation
 
