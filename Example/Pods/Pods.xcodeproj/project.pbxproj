@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		122DC61FF32986BD71FB3C37CDEC4514 /* BorderLabelTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2884F0B253B7BB2DA2DE25517E77321B /* BorderLabelTextField-dummy.m */; };
+		2851DD9816390C617DC24034EE5BE344 /* Pods-BorderLabelTextField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB02D1598A374535A8B2D1054217E9F1 /* Pods-BorderLabelTextField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54A9603442A263A77692C54F5C0FDCCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		58AE98188B215DD95D9BD93F23F499EB /* Pods-BorderLabelTextField_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C36690F9236DA260AE792F3D0B8BA75F /* Pods-BorderLabelTextField_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6609164DD3858EB9F32B8DD1C762E890 /* Pods-BorderLabelTextField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A08297D0704EE8835C958D923B488D87 /* Pods-BorderLabelTextField_Example-dummy.m */; };
+		87C06FE23D229CB453272DE546357169 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9596A0D53DB3259BC3B2660553B14D5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9B63A92357346C556C54A7CC5C129CC0 /* BorderLabelTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78B5B70C399A9757BC531E0CCADEB88A /* BorderLabelTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDA2DE47BC24BD6D942FC7AEBC3AAC1F /* Pods-BorderLabelTextField_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A55A3061CC3B991CA63DD96C3C05931 /* Pods-BorderLabelTextField_Tests-dummy.m */; };
+		F4BBB29308107319A9D2C114749C03A5 /* BorderLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE5D6487813C9194A879C3A8D32E3C3 /* BorderLabelTextField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		397F8D20EF039D61E7543832461712F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3F6BB26A81BE5F29408263DC55A5DD0;
+			remoteInfo = "Pods-BorderLabelTextField_Example";
+		};
+		FD15A2BD1624676EF52A7222E41C595A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D61D1521FB158E5C19478B5BB0F7976;
+			remoteInfo = BorderLabelTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00B795C62CE73413F5CF475F7737AE0A /* Pods_BorderLabelTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BorderLabelTextField_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		06CBD36F270FBBF8F5FC8E659DB6A93A /* Pods-BorderLabelTextField_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BorderLabelTextField_Example.modulemap"; sourceTree = "<group>"; };
+		0F8B71B13BF6838AD7EEC5C81FA06001 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		16677CD02A6A8B1B32ECA2E16CBF35FB /* BorderLabelTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BorderLabelTextField.xcconfig; sourceTree = "<group>"; };
+		1B7C54E29774E71C4CF6585D30E36A64 /* Pods-BorderLabelTextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BorderLabelTextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1F7DD8954784E8C80A1C0682AC5C8562 /* Pods-BorderLabelTextField_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BorderLabelTextField_Example-Info.plist"; sourceTree = "<group>"; };
+		2884F0B253B7BB2DA2DE25517E77321B /* BorderLabelTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BorderLabelTextField-dummy.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		40C83EA9772D194877A410AC30DC8B81 /* Pods-BorderLabelTextField_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BorderLabelTextField_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		43772E2DA30928E56413F44ACDD64844 /* Pods-BorderLabelTextField_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BorderLabelTextField_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		450D10828E0CC8939B82D8723EAE779A /* Pods-BorderLabelTextField_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BorderLabelTextField_Tests.modulemap"; sourceTree = "<group>"; };
+		4E2A11129A541F2213BBEFDBCC2D83E4 /* BorderLabelTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BorderLabelTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5225215F808116A2C7ACADFDBCF03852 /* BorderLabelTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BorderLabelTextField-prefix.pch"; sourceTree = "<group>"; };
+		5CE5D6487813C9194A879C3A8D32E3C3 /* BorderLabelTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BorderLabelTextField.swift; path = Source/BorderLabelTextField.swift; sourceTree = "<group>"; };
+		673BC30144BDBDF285345FBA5AA97578 /* BorderLabelTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BorderLabelTextField.modulemap; sourceTree = "<group>"; };
+		78B5B70C399A9757BC531E0CCADEB88A /* BorderLabelTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BorderLabelTextField-umbrella.h"; sourceTree = "<group>"; };
+		84D59A790407B3F25B12B7882728DDE0 /* Pods-BorderLabelTextField_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BorderLabelTextField_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		887BB4D19A3A3FA8F9D26462ED6402F0 /* Pods-BorderLabelTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BorderLabelTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		899964F55DC9C5DB10FABED9D7B74E34 /* BorderLabelTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BorderLabelTextField-Info.plist"; sourceTree = "<group>"; };
+		8CFE6F09D49FEC98A93C8AD1A348D4B5 /* Pods-BorderLabelTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BorderLabelTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9A55A3061CC3B991CA63DD96C3C05931 /* Pods-BorderLabelTextField_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BorderLabelTextField_Tests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A08297D0704EE8835C958D923B488D87 /* Pods-BorderLabelTextField_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BorderLabelTextField_Example-dummy.m"; sourceTree = "<group>"; };
+		A896648A82423905EC151DF645BDA967 /* BorderLabelTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BorderLabelTextField.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AB02D1598A374535A8B2D1054217E9F1 /* Pods-BorderLabelTextField_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BorderLabelTextField_Example-umbrella.h"; sourceTree = "<group>"; };
+		B1872F66AC441B69919F0EA8E79C2853 /* Pods-BorderLabelTextField_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BorderLabelTextField_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B3512B188C1CE17408E1B45584F4A9F7 /* Pods-BorderLabelTextField_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BorderLabelTextField_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C36690F9236DA260AE792F3D0B8BA75F /* Pods-BorderLabelTextField_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BorderLabelTextField_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C38F20FD90FE881B090E98AD65F56081 /* Pods-BorderLabelTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BorderLabelTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D2ECE6DB8E65F37CEDD78FF11DEC9041 /* Pods_BorderLabelTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BorderLabelTextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E054413D887C70CECFD4FF2A02ADF8E6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		EA3DDB6E3C39D9FE9A4FC8BB97EC3B5D /* Pods-BorderLabelTextField_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BorderLabelTextField_Tests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		405252D5819A164D785B15C1804645D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A9603442A263A77692C54F5C0FDCCE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9984FFE5E1111C009DC33897F20EA1C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9596A0D53DB3259BC3B2660553B14D5B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB317A5C79F0109EBC77E93FF6B54C8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87C06FE23D229CB453272DE546357169 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36031F9DE7AF74D6F5F8C304F7DFC425 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				98194D91B5978CCF2512E4B79CB1BB5D /* Pods-BorderLabelTextField_Example */,
+				B0DE08C118E18C808FB8BD246839F3E7 /* Pods-BorderLabelTextField_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		37A439E3E0A7D1C196BED1707E656065 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55FE1833CC42D2E0416FB6E987229896 /* BorderLabelTextField */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3C2A28AB3DD39A4A8D2AC38CE391E462 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E2A11129A541F2213BBEFDBCC2D83E4 /* BorderLabelTextField.framework */,
+				D2ECE6DB8E65F37CEDD78FF11DEC9041 /* Pods_BorderLabelTextField_Example.framework */,
+				00B795C62CE73413F5CF475F7737AE0A /* Pods_BorderLabelTextField_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55FE1833CC42D2E0416FB6E987229896 /* BorderLabelTextField */ = {
+			isa = PBXGroup;
+			children = (
+				5CE5D6487813C9194A879C3A8D32E3C3 /* BorderLabelTextField.swift */,
+				C1A77DCED0624BBCC41DE4EBB0A21BE7 /* Pod */,
+				B8BF72DB2F530846F93D2AD801530637 /* Support Files */,
+			);
+			name = BorderLabelTextField;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		98194D91B5978CCF2512E4B79CB1BB5D /* Pods-BorderLabelTextField_Example */ = {
+			isa = PBXGroup;
+			children = (
+				06CBD36F270FBBF8F5FC8E659DB6A93A /* Pods-BorderLabelTextField_Example.modulemap */,
+				40C83EA9772D194877A410AC30DC8B81 /* Pods-BorderLabelTextField_Example-acknowledgements.markdown */,
+				B3512B188C1CE17408E1B45584F4A9F7 /* Pods-BorderLabelTextField_Example-acknowledgements.plist */,
+				A08297D0704EE8835C958D923B488D87 /* Pods-BorderLabelTextField_Example-dummy.m */,
+				B1872F66AC441B69919F0EA8E79C2853 /* Pods-BorderLabelTextField_Example-frameworks.sh */,
+				1F7DD8954784E8C80A1C0682AC5C8562 /* Pods-BorderLabelTextField_Example-Info.plist */,
+				AB02D1598A374535A8B2D1054217E9F1 /* Pods-BorderLabelTextField_Example-umbrella.h */,
+				C38F20FD90FE881B090E98AD65F56081 /* Pods-BorderLabelTextField_Example.debug.xcconfig */,
+				8CFE6F09D49FEC98A93C8AD1A348D4B5 /* Pods-BorderLabelTextField_Example.release.xcconfig */,
+			);
+			name = "Pods-BorderLabelTextField_Example";
+			path = "Target Support Files/Pods-BorderLabelTextField_Example";
+			sourceTree = "<group>";
+		};
+		B0DE08C118E18C808FB8BD246839F3E7 /* Pods-BorderLabelTextField_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				450D10828E0CC8939B82D8723EAE779A /* Pods-BorderLabelTextField_Tests.modulemap */,
+				84D59A790407B3F25B12B7882728DDE0 /* Pods-BorderLabelTextField_Tests-acknowledgements.markdown */,
+				43772E2DA30928E56413F44ACDD64844 /* Pods-BorderLabelTextField_Tests-acknowledgements.plist */,
+				9A55A3061CC3B991CA63DD96C3C05931 /* Pods-BorderLabelTextField_Tests-dummy.m */,
+				EA3DDB6E3C39D9FE9A4FC8BB97EC3B5D /* Pods-BorderLabelTextField_Tests-Info.plist */,
+				C36690F9236DA260AE792F3D0B8BA75F /* Pods-BorderLabelTextField_Tests-umbrella.h */,
+				1B7C54E29774E71C4CF6585D30E36A64 /* Pods-BorderLabelTextField_Tests.debug.xcconfig */,
+				887BB4D19A3A3FA8F9D26462ED6402F0 /* Pods-BorderLabelTextField_Tests.release.xcconfig */,
+			);
+			name = "Pods-BorderLabelTextField_Tests";
+			path = "Target Support Files/Pods-BorderLabelTextField_Tests";
+			sourceTree = "<group>";
+		};
+		B8BF72DB2F530846F93D2AD801530637 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				673BC30144BDBDF285345FBA5AA97578 /* BorderLabelTextField.modulemap */,
+				16677CD02A6A8B1B32ECA2E16CBF35FB /* BorderLabelTextField.xcconfig */,
+				2884F0B253B7BB2DA2DE25517E77321B /* BorderLabelTextField-dummy.m */,
+				899964F55DC9C5DB10FABED9D7B74E34 /* BorderLabelTextField-Info.plist */,
+				5225215F808116A2C7ACADFDBCF03852 /* BorderLabelTextField-prefix.pch */,
+				78B5B70C399A9757BC531E0CCADEB88A /* BorderLabelTextField-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BorderLabelTextField";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C1A77DCED0624BBCC41DE4EBB0A21BE7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A896648A82423905EC151DF645BDA967 /* BorderLabelTextField.podspec */,
+				E054413D887C70CECFD4FF2A02ADF8E6 /* LICENSE */,
+				0F8B71B13BF6838AD7EEC5C81FA06001 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				37A439E3E0A7D1C196BED1707E656065 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				3C2A28AB3DD39A4A8D2AC38CE391E462 /* Products */,
+				36031F9DE7AF74D6F5F8C304F7DFC425 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		41610E53E14E73123401CFB0F7423287 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2851DD9816390C617DC24034EE5BE344 /* Pods-BorderLabelTextField_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E8E27F8B34D06DD74C36574513AC76 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58AE98188B215DD95D9BD93F23F499EB /* Pods-BorderLabelTextField_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C4F05B42BB120BDC4553CDE7608E50 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B63A92357346C556C54A7CC5C129CC0 /* BorderLabelTextField-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3D61D1521FB158E5C19478B5BB0F7976 /* BorderLabelTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F5EFCB2384F9AD5A5771AE71E3A2E0C /* Build configuration list for PBXNativeTarget "BorderLabelTextField" */;
+			buildPhases = (
+				D6C4F05B42BB120BDC4553CDE7608E50 /* Headers */,
+				B0F621D9C11ACE3EB1A6B55B44BA71D3 /* Sources */,
+				9984FFE5E1111C009DC33897F20EA1C0 /* Frameworks */,
+				EB65EDCB537FDABEB823E1AFB6A877AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BorderLabelTextField;
+			productName = BorderLabelTextField;
+			productReference = 4E2A11129A541F2213BBEFDBCC2D83E4 /* BorderLabelTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7D7CB411B0C2E7488512B943E05DA874 /* Pods-BorderLabelTextField_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC4B78D2F4019F0464D98C4BB7A72043 /* Build configuration list for PBXNativeTarget "Pods-BorderLabelTextField_Tests" */;
+			buildPhases = (
+				91E8E27F8B34D06DD74C36574513AC76 /* Headers */,
+				08986910B2EE6961D0CF1A86A2ED9C05 /* Sources */,
+				EB317A5C79F0109EBC77E93FF6B54C8B /* Frameworks */,
+				3EC616115A1974CEE24ABFB07AEB3BD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A622D2A8BB36C7FEA1AB33A38A3DD539 /* PBXTargetDependency */,
+			);
+			name = "Pods-BorderLabelTextField_Tests";
+			productName = "Pods-BorderLabelTextField_Tests";
+			productReference = 00B795C62CE73413F5CF475F7737AE0A /* Pods_BorderLabelTextField_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C3F6BB26A81BE5F29408263DC55A5DD0 /* Pods-BorderLabelTextField_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F233832B530C00344327D68C414D368C /* Build configuration list for PBXNativeTarget "Pods-BorderLabelTextField_Example" */;
+			buildPhases = (
+				41610E53E14E73123401CFB0F7423287 /* Headers */,
+				DB68AFE7A65D0E8D560889EF333DE236 /* Sources */,
+				405252D5819A164D785B15C1804645D3 /* Frameworks */,
+				A7A8E09AE9C70F7B3950392B7A8A163A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0675AF1F39340E4176C16383576D94AE /* PBXTargetDependency */,
+			);
+			name = "Pods-BorderLabelTextField_Example";
+			productName = "Pods-BorderLabelTextField_Example";
+			productReference = D2ECE6DB8E65F37CEDD78FF11DEC9041 /* Pods_BorderLabelTextField_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1120;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3C2A28AB3DD39A4A8D2AC38CE391E462 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D61D1521FB158E5C19478B5BB0F7976 /* BorderLabelTextField */,
+				C3F6BB26A81BE5F29408263DC55A5DD0 /* Pods-BorderLabelTextField_Example */,
+				7D7CB411B0C2E7488512B943E05DA874 /* Pods-BorderLabelTextField_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EC616115A1974CEE24ABFB07AEB3BD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7A8E09AE9C70F7B3950392B7A8A163A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB65EDCB537FDABEB823E1AFB6A877AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08986910B2EE6961D0CF1A86A2ED9C05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDA2DE47BC24BD6D942FC7AEBC3AAC1F /* Pods-BorderLabelTextField_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0F621D9C11ACE3EB1A6B55B44BA71D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				122DC61FF32986BD71FB3C37CDEC4514 /* BorderLabelTextField-dummy.m in Sources */,
+				F4BBB29308107319A9D2C114749C03A5 /* BorderLabelTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB68AFE7A65D0E8D560889EF333DE236 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6609164DD3858EB9F32B8DD1C762E890 /* Pods-BorderLabelTextField_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0675AF1F39340E4176C16383576D94AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BorderLabelTextField;
+			target = 3D61D1521FB158E5C19478B5BB0F7976 /* BorderLabelTextField */;
+			targetProxy = FD15A2BD1624676EF52A7222E41C595A /* PBXContainerItemProxy */;
+		};
+		A622D2A8BB36C7FEA1AB33A38A3DD539 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BorderLabelTextField_Example";
+			target = C3F6BB26A81BE5F29408263DC55A5DD0 /* Pods-BorderLabelTextField_Example */;
+			targetProxy = 397F8D20EF039D61E7543832461712F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12EC0E179F9080611D3F62891A497171 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16677CD02A6A8B1B32ECA2E16CBF35FB /* BorderLabelTextField.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BorderLabelTextField/BorderLabelTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BorderLabelTextField/BorderLabelTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BorderLabelTextField/BorderLabelTextField.modulemap";
+				PRODUCT_MODULE_NAME = BorderLabelTextField;
+				PRODUCT_NAME = BorderLabelTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		206D8BB87AA5930BBEDA180DE19BC596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CFE6F09D49FEC98A93C8AD1A348D4B5 /* Pods-BorderLabelTextField_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BorderLabelTextField_Example/Pods-BorderLabelTextField_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BorderLabelTextField_Example/Pods-BorderLabelTextField_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		298A50E6522269697FABFD1EC783B142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B7C54E29774E71C4CF6585D30E36A64 /* Pods-BorderLabelTextField_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BorderLabelTextField_Tests/Pods-BorderLabelTextField_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BorderLabelTextField_Tests/Pods-BorderLabelTextField_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		850C997CED074BC5E95D825C73AB3E2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16677CD02A6A8B1B32ECA2E16CBF35FB /* BorderLabelTextField.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BorderLabelTextField/BorderLabelTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BorderLabelTextField/BorderLabelTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BorderLabelTextField/BorderLabelTextField.modulemap";
+				PRODUCT_MODULE_NAME = BorderLabelTextField;
+				PRODUCT_NAME = BorderLabelTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BE6D6B2652C27ECD3257274FB8946963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C38F20FD90FE881B090E98AD65F56081 /* Pods-BorderLabelTextField_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BorderLabelTextField_Example/Pods-BorderLabelTextField_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BorderLabelTextField_Example/Pods-BorderLabelTextField_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E2CEF7F118609FC07CAFF3C25929E424 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 887BB4D19A3A3FA8F9D26462ED6402F0 /* Pods-BorderLabelTextField_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BorderLabelTextField_Tests/Pods-BorderLabelTextField_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BorderLabelTextField_Tests/Pods-BorderLabelTextField_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F5EFCB2384F9AD5A5771AE71E3A2E0C /* Build configuration list for PBXNativeTarget "BorderLabelTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				850C997CED074BC5E95D825C73AB3E2C /* Debug */,
+				12EC0E179F9080611D3F62891A497171 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC4B78D2F4019F0464D98C4BB7A72043 /* Build configuration list for PBXNativeTarget "Pods-BorderLabelTextField_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				298A50E6522269697FABFD1EC783B142 /* Debug */,
+				E2CEF7F118609FC07CAFF3C25929E424 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F233832B530C00344327D68C414D368C /* Build configuration list for PBXNativeTarget "Pods-BorderLabelTextField_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE6D6B2652C27ECD3257274FB8946963 /* Debug */,
+				206D8BB87AA5930BBEDA180DE19BC596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

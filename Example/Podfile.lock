@@ -1,0 +1,16 @@
+PODS:
+  - BorderLabelTextField (0.1.0)
+
+DEPENDENCIES:
+  - BorderLabelTextField (from `../`)
+
+EXTERNAL SOURCES:
+  BorderLabelTextField:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BorderLabelTextField: f7bd7da7681e8c549192af73482dd305dab533f7
+
+PODFILE CHECKSUM: d67e7798cf25fd75fafd4cb7d1c5929b95ea0151
+
+COCOAPODS: 1.8.3

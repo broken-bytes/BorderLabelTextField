@@ -1,0 +1,6 @@
+framework module BorderLabelTextField {
+  umbrella header "BorderLabelTextField-umbrella.h"
+
+  export *
+  module * { export * }
+}

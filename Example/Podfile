@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BorderLabelTextField_Example' do
+  pod 'BorderLabelTextField', :path => '../'
+
+  target 'BorderLabelTextField_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

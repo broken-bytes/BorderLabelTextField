@@ -1,0 +1,22 @@
+{
+  "name": "BorderLabelTextField",
+  "version": "0.1.0",
+  "summary": "BorderLabelTextField is a subclass of UITextField that adds a label above the input that breaks the border of the UITextField.",
+  "description": "BorderLabelTextField is a subclass of UITextField that adds a label above the input that breaks the border of the UITextField.",
+  "homepage": "https://github.com/broken-bytes/BorderLabelTextField",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "broken-bytes": "dev@broken-bytes.io"
+  },
+  "source": {
+    "git": "https://github.com/broken-bytes/BorderLabelTextField.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "Source/*.swift"
+}
