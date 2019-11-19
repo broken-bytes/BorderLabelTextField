@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BorderLabelTextField'
-  s.version          = '0.0.2'
+  s.version          = '1.0.0'
   s.swift_version = '5.1'
   s.summary          = 'BorderLabelTextField is a subclass of UITextField that adds a label above the input that breaks the border of the UITextField.'
 
@@ -21,6 +21,6 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '13.0'
 
-  s.source_files = 'Source/*.swift'
+  s.source_files = 'Sources/*.swift'
 
 end
