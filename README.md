@@ -30,6 +30,8 @@ Using this UITextField subclass is straighforward.
 3. In the TextField properties, set the Border style to any other than the preselected one as it displays an unwanted border around the TextField
 4. Assign Inspectable properties to your desire.
 
+Alternatively, instantiate via code and set the desired properties.
+
 
 ## Limitations
 
