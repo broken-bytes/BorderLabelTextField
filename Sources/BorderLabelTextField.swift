@@ -21,9 +21,13 @@ class BorderedLabelTextField: UITextField {
     }
     
     // MARK: Border Inpectables
+    /// The width of the border
     @IBInspectable var borderWidth: CGFloat = 2
+    /// The radius to use, sets layer.cornerRadius
     @IBInspectable var borderRadius: CGFloat = 0
+    /// The color of the border
     @IBInspectable var borderColor: UIColor = .black
+    /// The size of the label
     @IBInspectable var labelFontSize: CGFloat = 12 {
         didSet {
             label.font = self.font?.withSize(labelFontSize)
@@ -31,12 +35,14 @@ class BorderedLabelTextField: UITextField {
     }
     
     // MARK: Label Inspectables
+    /// The color of the label
     @IBInspectable var labelColor: UIColor = .black {
         didSet {
             self.label.textColor = self.labelColor
         }
     }
     
+    /// The text this label displays
     @IBInspectable var labelText: String = "Placeholder" {
         didSet {
             self.label.text = self.labelText
@@ -44,6 +50,7 @@ class BorderedLabelTextField: UITextField {
     }
     
     // MARK: SecureText Properties
+    /// Indicates whether the icon for showing clear text in a secure textfield should be enabled or not
     @IBInspectable var showClearTextIcon: Bool = false {
         didSet {
             if self.showClearTextIcon {
@@ -61,6 +68,7 @@ class BorderedLabelTextField: UITextField {
         }
     }
     
+    /// The icon that will be displayed for toggling clear text mode
     @IBInspectable var clearTextIcon: UIImage? = nil {
         didSet {
             if self.clearTextIcon == nil {
@@ -73,12 +81,14 @@ class BorderedLabelTextField: UITextField {
         }
     }
     
+    /// The font used
     override var font: UIFont? {
         didSet {
             label.font = self.font?.withSize(labelFontSize)
         }
     }
     
+    /// The color of the text. Does also override the clear text icon color
     override var textColor: UIColor? {
         didSet {
             self.tintColor = self.textColor

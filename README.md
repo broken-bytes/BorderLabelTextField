@@ -1,6 +1,6 @@
 # BorderLabelTextField
 
-![Swift](https://img.shields.io/badge/Swift-5.1-orange) ![Version](https://img.shields.io/badge/Version-v1.0.1-blue) [![License](https://img.shields.io/cocoapods/l/BorderLabelTextField.svg?style=flat)](https://cocoapods.org/pods/BorderLabelTextField) [![Platform](https://img.shields.io/cocoapods/p/BorderLabelTextField.svg?style=flat)](https://cocoapods.org/pods/BorderLabelTextField)
+![Swift](https://img.shields.io/badge/Swift-5.1-orange) ![Version](https://img.shields.io/badge/Version-v1.0.2-blue) [![License](https://img.shields.io/cocoapods/l/BorderLabelTextField.svg?style=flat)](https://cocoapods.org/pods/BorderLabelTextField) [![Platform](https://img.shields.io/cocoapods/p/BorderLabelTextField.svg?style=flat)](https://cocoapods.org/pods/BorderLabelTextField)
 
 BorderLabelTextField is a subclass of UITextField that adds a label above the input that breaks the border of the UITextField.
 
